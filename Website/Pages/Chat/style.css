@@ -1,0 +1,63 @@
+body{
+ font: 20px Verdana;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(4.jpg);
+	background-size: cover;
+	font-family: Century Gothic;
+
+}
+
+.logo img{
+	float: left;
+	width: 180px;
+	height: auto;
+}
+
+
+h1{
+ font: 20px Verdana;
+ color: red;
+}
+
+.Input{
+ font: 20px Verdana;
+ border: 1px solid orange;
+ width: 300px;
+}
+
+.Submit{
+ font: 20px Verdana;
+ border: 1px solid orange;
+ width: 300px;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 15px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid transparent;
+	transition: 1.2s ease;
+}
+
+ul li a:hover{
+	background-color: #CDD;
+	color: #101;
+}
+
+ul li.active a{
+	background-color: #CDD;
+	color: #101;
+
+
